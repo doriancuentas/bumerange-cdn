@@ -1,0 +1,14 @@
+# Lysmata - Lint and Security Tools
+# Install: pip install -r .laf/requirements.txt
+
+# Python linting + formatting + security (all-in-one, offline, no internet)
+ruff>=0.8.0
+
+# Dependency vulnerability scanner (from PyPA, accurate, offline after first run)
+pip-audit>=2.0.0
+
+# YAML linting
+yamllint>=1.35.0
+
+# HTML template linting (works with Django, Jinja2, etc.)
+curlylint>=0.13.0
